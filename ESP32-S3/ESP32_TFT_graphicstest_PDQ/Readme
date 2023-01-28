@@ -1,4 +1,4 @@
-#ESP32 TFT Graphicstest
+## ESP32 TFT Graphicstest
 
 The file User_setup.h in the library folder contains the defines 
 for the connection of ILI9341 display to ESP32 Dev kit
