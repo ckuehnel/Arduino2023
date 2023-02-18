@@ -1,5 +1,5 @@
 /*
-  MKR1000_PushOver_Status.ino
+  MKR1010_PushOver_Status.ino
   based on
   https://create.arduino.cc/projecthub/ckuehnel/mkr1000-pushover-status-5eac37
   created 2018-07-05 Claus Kuehnel (info@ckuehnel.ch)

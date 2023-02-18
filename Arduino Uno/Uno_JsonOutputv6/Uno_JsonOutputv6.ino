@@ -9,9 +9,12 @@
 // helper macro
 #define LINE(name,val) Serial.print(name); Serial.print(" "); Serial.println(val);
 
-#define SENSOR1 "BME280"
-#define SENSOR2 "DHT11"
-#define SENSOR3 "NEO6M_GPS"
+#define SENSOR1 "RAK1901"
+#define SENSOR2 "RAK1902"
+#define SENSOR3 "RAK12010"
+#define SENSOR4 "RAK12047"
+#define SENSOR5 "RAK12037"
+#define SENSOR6 "RAK12039"
 
 void setup() 
 {
@@ -34,25 +37,31 @@ void setup()
   Serial.println(ARDUINOJSON_VERSION);
 
   //https://arduinojson.org/v6/assistant/ used for configuration
-  const size_t capacity = JSON_ARRAY_SIZE(2) + JSON_OBJECT_SIZE(1) + JSON_OBJECT_SIZE(2) + 2*JSON_OBJECT_SIZE(3);
-  DynamicJsonDocument doc(capacity);
+  StaticJsonDocument<384> doc;
 
   Serial.println("Serialization of data...");
 
-  JsonObject sensor1 = doc.createNestedObject("sensor1");
-  sensor1["temperature"] = 22.2;
-  sensor1["humdity"] = 66;
-  sensor1["pressure"] = 999;
 
-  JsonObject sensor2 = doc.createNestedObject("sensor2");
-  sensor2["temperature"] = 22.2;
-  sensor2["humdity"] = 66;
 
-  JsonObject sensor3 = doc.createNestedObject("sensor3");
+JsonObject sensor1 = doc.createNestedObject("sensor1");
+sensor1["temperature"] = 22.2;
+sensor1["humidity"] = 66;
 
-  JsonArray sensor3_position = sensor3.createNestedArray("position");
-  sensor3_position.add(8.8172433);
-  sensor3_position.add(47.1979687);
+JsonObject sensor2 = doc.createNestedObject("sensor2");
+sensor2["temperature"] = 22.2;
+sensor2["pressure"] = 999.9;
+doc["sensor3"]["lux"] = 22.2;
+doc["sensor4"]["iVOC"] = 555;
+
+JsonObject sensor5 = doc.createNestedObject("sensor5");
+sensor5["temperature"] = 22.2;
+sensor5["humidity"] = 66;
+sensor5["CO2"] = 555;
+
+JsonObject sensor6 = doc.createNestedObject("sensor6");
+sensor6["PM1"] = 5;
+sensor6["PM5"] = 10;
+sensor6["PM10"] = 15;
 
   Serial.println("\nOutput minified JSON...");
   serializeJson(doc, Serial);
