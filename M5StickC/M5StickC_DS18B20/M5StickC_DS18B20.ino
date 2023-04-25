@@ -1,7 +1,7 @@
 /*
    M5StickC_DS18B20.ino
    
-   Temperatur Measurment w/ DS18B20 sensor via header on top
+   Temperature Measurment w/ DS18B20 sensor via header on top
 
    Created 2019-05-20 Claus Kühnel info@ckuehnel.ch
 */
