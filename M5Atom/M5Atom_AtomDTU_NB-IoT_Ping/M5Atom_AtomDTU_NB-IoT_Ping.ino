@@ -14,8 +14,7 @@
  */
 
 #include "ATOM_DTU_NB.h"
-#include "M5Atom.h"
-
+#include <M5Atom.h>
 
 ATOM_DTU_NB DTU;
 
