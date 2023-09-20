@@ -1,6 +1,7 @@
 /*
-
-  HelloWorld.ino
+  File: IdeaSpark_HW.ino
+  
+  based on HelloWorld.ino
 
   Universal 8bit Graphics Library (https://github.com/olikraus/u8g2/)
 
@@ -30,7 +31,6 @@
   STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) 
   ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF 
   ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.  
-
 */
 
 #include <Arduino.h>
