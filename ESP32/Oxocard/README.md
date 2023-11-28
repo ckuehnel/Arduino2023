@@ -9,3 +9,6 @@ Zahlreiche Programmbeispiele und ausführliche Erläuterungen dienen der Einarbe
 
 Hier wird Oxocard Connect mit der Arduino IDE in C++ programmiert. 
 In meinem [Blog](https://ckblog2016.net/2023/11/27/oxocard-connect/) habe ich das vorgestellt.
+
+
+![Oxocard Connect mit Breadboard](https://www.oxocard.ch/images/connect/oxocard_connect_controllerboard-fead4506.png)
