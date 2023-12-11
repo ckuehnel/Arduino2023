@@ -18,7 +18,8 @@
 #include <Wire.h>
 
 //Create Instance of Si7021 temp and humidity sensor 
-Weather sensor;
+//Weather sensor; no more valid, changed on 11.12.2023/CK
+SI7021 sensor;
 
 void setup()
 {
