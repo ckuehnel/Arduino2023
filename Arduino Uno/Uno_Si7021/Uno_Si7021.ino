@@ -26,6 +26,7 @@ void setup()
   Serial.begin(115200);   // open serial over USB at 115200 baud
   delay(2000);
   Serial.println("Read Si7021 sensor...");
+  Wire.begin();
   sensor.begin(); //Initialize the I2C sensors and ping them
   Serial.println();
 }
