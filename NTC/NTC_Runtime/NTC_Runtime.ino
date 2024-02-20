@@ -1,5 +1,7 @@
 /*
-    Messung der Laufzeit für Abruf eines Messwertes nach Polynomapproximation und ANN
+    Ermittlung der Temperatur mit einem NTC-Thermistor 
+    nach Approximation durch Polynom- und Cubic-Spline-Approximation und Neuronalem Netzwerk
+    und Messung der Zugriffszeit
     Approximationspolynom: T = 1.2521U4 - 15.664U3 + 67.375U2 - 135.54U + 140.17
     Laufzeiten ermittelt auf einem XIAO RP2040 - Arduino 2.1.1
     2024-02-17 Claus Kühnel info@ckuehnel.ch
