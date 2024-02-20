@@ -16,6 +16,8 @@ Es zeigt sich, dass selbst die vereinfachte Steinhart-Hart-Gleichung die reale K
 
 Die Polynom-Approximation 4. Grades ist für genauere Messungen nur eingeschränkt verwendbar, genauso wie das neuronale Netz. Um mit diesen Methoden die Genauigkeit zu erhöhen, bedarf es weiteren Aufwands (Polynom höheren Grades, aufwendigeres Netzwerk). Die Cubic-Spline-Approximation liefert bereits sehr brauchbare Ergebnisse und wäre (aus meiner Sicht) das Mittel der Wahl. 
 
+Bei den Zugriffszeiten verhält es sich ähnlich. Auf einem XIA0 RP2040 (Cortex-M0+ @ 125 MHz) belaufen sich diese für die Spline-Approximation auf ca. 20 us, für die Polynom-Approximation 4. Grades auf ca. 30 us und für das neuronale Netzwerk auf knapp 100 us. 
+
 ![image](https://github.com/ckuehnel/Arduino2023/assets/195788/c9e66b76-3b46-418f-b53b-b66351600ac9)
 
 ![image](https://github.com/ckuehnel/Arduino2023/assets/195788/1b8a7324-7af9-47d9-941a-5ca295094d7e)
