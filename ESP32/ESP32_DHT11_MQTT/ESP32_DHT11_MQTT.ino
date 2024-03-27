@@ -1,5 +1,5 @@
 /*
- * File: UnoWiFiR2_DHT11_MQTT.ino
+ * File: ESP32_DHT11_MQTT.ino
  * 
  * Measuring temperature and humidity by DHT11 sensor and sending data as
  * MQTT topics to HiveMQ Public Broker.
@@ -7,14 +7,13 @@
  * createtd 2020-04-14 by Claus Kühnel (info@ckuehnel.ch) 
  * modified 2024-03-27 by Claus Kühnel (info@ckuehnel.ch)
  */
-
 #include <SPI.h>
-#include <WiFiNINA.h>
+#include <WiFi.h>
 #include <PubSubClient.h>
 #include "DHT.h"
 #include "arduino_secrets.h"
 
-#define INFO 0
+#define INFO 1
 #define DEBUG 1
 
 /* create an instance of PubSubClient client */
@@ -38,8 +37,8 @@ DHT dht(DHTPIN, DHTTYPE);
 
 void setup() 
 {
-  Serial.begin(9600);
-  delay(1000);
+  Serial.begin(115200);
+  delay(2000);
   if (INFO)  printInfo();
   if (DEBUG) Serial.println(F("\nInitializing...")); 
     
@@ -59,7 +58,7 @@ void loop()
   /* we measure temperature every 10 secs
   we count until 30 secs reached to avoid blocking program if using delay()*/
   long now = millis();
-  if (now - lastMsg > 30000) 
+  if (now - lastMsg > 10000) 
   {
     lastMsg = now;
     /* read DHT11/DHT22 sensor and convert to string */
