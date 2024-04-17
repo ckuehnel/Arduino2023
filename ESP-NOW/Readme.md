@@ -15,6 +15,6 @@ können einzelne oder alle MQTT Messages abonniert (subscribed) werden.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Änderungen am ESP-Now Netzwerk
 
-Ein *LilyGo_EPD-Knoten* mit ePaper Display SHTC3 Outdoor Sensor wird neu mit aufgenommen und das *ThingPulse ESP--Ethernet-Gateway* wird eingesetzt.
+Ein *LilyGo_EPD-Knoten* mit ePaper Display SHTC3 Outdoor Sensor wird neu aufgenommen und das *ThingPulse ESP--Ethernet-Gateway* wird eingesetzt.
 
  
