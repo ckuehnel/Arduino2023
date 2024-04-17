@@ -1,7 +1,7 @@
 // This file contains credentials to access several services
 
-const char* mySSID = "Sunrise_2.4GHz_8AC2A0";
-const char* myPW   = "u2u7fgzv31Ds";
+const char* mySSID = "<YOUR SSID>";
+const char* myPW   = "<Your Password>"
 
 // MQTT (CloudMQTT)
 // const char* BROKER = "m20.cloudmqtt.com";
