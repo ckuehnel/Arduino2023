@@ -17,4 +17,4 @@ können einzelne oder alle MQTT Messages abonniert (subscribed) werden.
 
 Ein *LilyGo_EPD-Knoten* mit ePaper Display SHTC3 Outdoor Sensor wird neu aufgenommen und das *ThingPulse ESP--Ethernet-Gateway* wird eingesetzt.
 
- 
+![LilyGo_EPD_Node](https://github.com/ckuehnel/Arduino2023/assets/195788/d019db7e-234d-4724-b52f-f75dd4284a5a)
