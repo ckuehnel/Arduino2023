@@ -2,7 +2,7 @@
 
 Die zwei Verzeichnisse enthalten ESP-Now Anwendungen mit unterschiedlichen Gateways.
 
-## TP-GWWWiFi    <img src="https://github.com/ckuehnel/Arduino2023/blob/main/ESP-NOW/TP-GEWiFi/TP-GWWiFi.jpg"> 
+## TP-GWWiFi    <img src="https://github.com/ckuehnel/Arduino2023/blob/main/ESP-NOW/TP-GEWiFi/TP-GWWiFi.jpg"> 
 Das im Blogbeitrag https://ckarduino.wordpress.com/2021/10/09/low-power-sensornetzwerk/ beschriebene Sensornetzwerk verwendet batterie- bzw. solarbetriebene Sensorknoten, 
 die aus *DFRobot FireBeetle ESP32-E* oder *ThingPulse ePulse Low Power ESP32* Boards bestehen. Die erhobenen Messwerte werden über ESP-NOW an ein *ThingPulse ESP-Gateway* gesendet.
 Hierbei kommt das ThingPulse-Gateway mit zwei WiFi-Kanälen zum Einsatz.
