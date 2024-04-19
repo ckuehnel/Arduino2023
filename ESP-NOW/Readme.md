@@ -1,7 +1,11 @@
 # ESP-NOW Low-Power Sensornetzwerk
 
+Die zwei Verzeichnisse enthalten ESP-Now Anwendungen mit unterschiedlichen Gateways.
+
+## TP-GWWiFi
 Das im Blogbeitrag https://ckarduino.wordpress.com/2021/10/09/low-power-sensornetzwerk/ beschriebene Sensornetzwerk verwendet batterie- bzw. solarbetriebene Sensorknoten, 
 die aus *DFRobot FireBeetle ESP32-E* oder *ThingPulse ePulse Low Power ESP32* Boards bestehen. Die erhobenen Messwerte werden über ESP-NOW an ein *ThingPulse ESP-Gateway* gesendet.
+Hierbei kommt das ThingPulse-Gateway mit zqwi WiFi-Kanälen zum Einsatz.
 
 Das *ThingPulse ESP-Gateway* besteht aus zwei ESP32-Wrover-IB-Modulen. Detaillierte Informationen zum *ThingPulse ESP-Gateway* sind unter der URL 
 https://thingpulse.com/new-product-the-espgateway-design/ zu finden.
@@ -13,8 +17,7 @@ Die MQTT Messages sende ich an den Public MQTT Broker von HiveMQ (https://www.hi
 können einzelne oder alle MQTT Messages abonniert (subscribed) werden.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Änderungen am ESP-Now Netzwerk
-
+## TP-GWE
 Ein *LilyGo_EPD-Knoten* mit ePaper Display SHTC3 Outdoor Sensor wird neu mit aufgenommen und das *ThingPulse ESP--Ethernet-Gateway* wird eingesetzt.
 
  
