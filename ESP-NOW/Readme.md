@@ -19,6 +19,6 @@ können einzelne oder alle MQTT Messages abonniert (subscribed) werden.
 ## TP-GWE
 Ein *LilyGo_EPD-Knoten* mit ePaper Display SHTC3 Outdoor Sensor wird neu aufgenommen und das *ThingPulse ESP--Ethernet-Gateway* wird eingesetzt.
 
-
+<img src="https://github.com/ckuehnel/Arduino2023/blob/main/ESP-NOW/TP-GWE/LilyGo_EPD_Node.jpg">LiLyGo EPD102 Board
 
 In der unteren Zeile wird die MAC Adresse (aus Platzgründen ohne :) angezeigt. Diese wird im Gateway benötigt.
