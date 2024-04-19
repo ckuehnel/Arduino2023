@@ -16,7 +16,7 @@ Dieser übernimmt diese Daten und bereitet sie zum Versenden über MQTT auf.
 Die MQTT Messages sende ich an den Public MQTT Broker von HiveMQ (https://www.hivemq.com/public-mqtt-broker/). Mit einem MQTT Client auf einem PC, Tablet oder Smartphone 
 können einzelne oder alle MQTT Messages abonniert (subscribed) werden.
 
-## TP-GWE   <img src="https://github.com/ckuehnel/Arduino2023/blob/main/ESP-NOW/TP-GWE/TP-GWE.jpg"
+## TP-GWE   <img src="https://github.com/ckuehnel/Arduino2023/blob/main/ESP-NOW/TP-GWE/TP-GWE.jpg">
 Ein *LilyGo_EPD-Knoten* mit ePaper Display SHTC3 Outdoor Sensor wird neu aufgenommen und das *ThingPulse ESP--Ethernet-Gateway* wird eingesetzt.
 
 <img src="https://github.com/ckuehnel/Arduino2023/blob/main/ESP-NOW/TP-GWE/LilyGo_EPD_Node.jpg">LiLyGo EPD102 Board
