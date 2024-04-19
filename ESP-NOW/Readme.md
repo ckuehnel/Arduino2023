@@ -16,8 +16,9 @@ Dieser übernimmt diese Daten und bereitet sie zum Versenden über MQTT auf.
 Die MQTT Messages sende ich an den Public MQTT Broker von HiveMQ (https://www.hivemq.com/public-mqtt-broker/). Mit einem MQTT Client auf einem PC, Tablet oder Smartphone 
 können einzelne oder alle MQTT Messages abonniert (subscribed) werden.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## TP-GWE
-Ein *LilyGo_EPD-Knoten* mit ePaper Display SHTC3 Outdoor Sensor wird neu mit aufgenommen und das *ThingPulse ESP--Ethernet-Gateway* wird eingesetzt.
+Ein *LilyGo_EPD-Knoten* mit ePaper Display SHTC3 Outdoor Sensor wird neu aufgenommen und das *ThingPulse ESP--Ethernet-Gateway* wird eingesetzt.
 
- 
+
+
+In der unteren Zeile wird die MAC Adresse (aus Platzgründen ohne :) angezeigt. Diese wird im Gateway benötigt.
