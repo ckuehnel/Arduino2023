@@ -174,9 +174,9 @@ void loop()
       if (strcmp(type, "telemetry") == 0)
       {
         if (payload_air_util_tx > 0)
-          Serial.printf("Air_Util_TX %3.3f ms\n", payload_air_util_tx);
+          Serial.printf("Air_Util_TX %3.3f %%\n", payload_air_util_tx);
         if (payload_channel_utilization > 0)
-          Serial.printf("Channel Utilization %3.3f\n", payload_channel_utilization);
+          Serial.printf("Channel Utilization %3.3f %%\n", payload_channel_utilization);
         if (payload_battery_level != 0 && payload_voltage != 0)
           Serial.printf("Battery Level %d %%  Voltage %3.3f V\n", payload_battery_level, payload_voltage);
         if (payload_temperature != 0 && payload_relative_humidity != 0)
