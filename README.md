@@ -2,7 +2,7 @@
 
 Arduino Sketches für die  2. (2023) und 3. Auflage (2024) des Arduino Handbuchs   
 
-
+![Cover](https://github.com/ckuehnel/Arduino2023/blob/main/9783367102792_267.png)
 
 887 Seiten, 3., aktualisierte Auflage 2024, gebunden, in Farbe
 Rheinwerk Computing, ISBN 978-3-367-10279-2
